@@ -1,1 +1,1 @@
-module github.com/opaolini/coinbase-commerce-go
+module github.com/nakkapeddi/coinbase-commerce-go
