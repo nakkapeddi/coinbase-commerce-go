@@ -6,7 +6,7 @@ type ChargeRequest struct {
 	Name        string            `json:"name"`
 	Description string            `json:"description"`
 	PricingType string            `json:"pricing_type"`
-	LocalPrice  LocalPrice        `json:"local_price,omitempty"`
+	LocalPrice  *LocalPrice       `json:"local_price,omitempty"`
 	Metadata    map[string]string `json:"metadata,omitempty"`
 	RedirectURL string            `json:"redirect_url,omitempty"`
 	CancelURL   string            `json:"cancel_url,omitempty"`
